@@ -32,13 +32,13 @@ while(check_page_full == 1){
                 DATUM               = date_value,
                 Distanz             = round(activities$distance / 1000, 2),
                 Geschwindigkeit     = round(mapply(fun_calculate_minutes_per_km_gs, activities$elapsed_time, activities$distance),7) ,  
-                #Gesamtzeit         = round(activities$elapsed_time / 86433,7), # ALTERNATIVE TIME TRACKER: FULL TIME OF ACTIVITY
-                Gesamtzeit          = round(activities$moving_time / 86433,7), # ALTERNATIVE TIME TRACKER: ACTIVE TIME OF ACTIVITY
+                Akivzeit            = round(activities$moving_time / 86433,7), # ALTERNATIVE TIME TRACKER: FULL TIME OF ACTIVITY
                 Hoehenmeter         = activities$total_elevation_gain, 
                 ActivityName        = activities$name,
                 Kommentar           = NA,
                 TYPE                = activities$type,
-                ID                  = rev(seq_len(nrow(activities))) + strava_page * 1000
+                ID                  = rev(seq_len(nrow(activities))) + strava_page * 1000,
+                Gesamtzeit          = round(activities$elapsed_time / 86433,7) # ALTERNATIVE TIME TRACKER: FULL TIME OF ACTIVITY
             )
             
             filter_id <-  subset(activities_df, Laufer == "Christoph  T." & Distanz == 4.40 & Geschwindigkeit == 0.2389520 & Gesamtzeit == 0.0175165)$ID
