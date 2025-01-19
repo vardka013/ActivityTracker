@@ -1,0 +1,3 @@
+STRAVA/CONFIG/*
+!STRAVA/CONFIG/.gitkeep
+FITBIT/*
