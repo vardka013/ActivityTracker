@@ -31,8 +31,8 @@ INSTRUCTIONS TO "INSTALL" (only once):	LINKS:
 2) optional: download and install RStudio (IDE)	https://posit.co/download/rstudio-desktop/
 3) download Repo from github	https://github.com/vardka013/ActivityTracker
 4) create CONFIG_STRAVA.csv in STRAVA\CONFIG	containing, e.g.
-VARIABLE,VALUE
-sheet_url,https://docs.google.com/spreadsheets/d/18yx-J47ZIJWb0n6h9BmqdQSNzs3hKEf6d3qRxsa93EQ/edit?pli=1&gid=0#gid=0
-club_id,herbert
-client_id,1234578
-client_secret,948cfefca71e2af3111e52dccb29e83fcd4d7b32
+VARIABLE,VALUE<br>
+sheet_url,https://docs.google.com/spreadsheets/d/18yx-J47ZIJWb0n6h9BmqdQSNzs3hKEf6d3qRxsa93EQ/edit?pli=1&gid=0#gid=0<br>
+club_id,herbert<br>
+client_id,1234578<br>
+client_secret,948cfefca71e2af3111e52dccb29e83fcd4d7b32<br>
