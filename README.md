@@ -1,6 +1,6 @@
-# ActicityTrack
+# ActicityTracker
 
-Welcome to the ActicityTrack repository! This tool provides powerful features to work with activity data from APIs like Strava and Fitbit. Below, you'll find an overview of its core functionalities and how to use them effectively.
+Welcome to the ActicityTracker repository! This tool provides powerful features to work with activity data from APIs like Strava and Fitbit. Below, you'll find an overview of its core functionalities and how to use them effectively.
 
 ---
 ## Features
