@@ -30,7 +30,7 @@ INSTRUCTIONS TO "INSTALL" (only once):	LINKS:
 1) download and install R	https://cran.r-project.org/bin/windows/base/
 2) optional: download and install RStudio (IDE)	https://posit.co/download/rstudio-desktop/
 3) download Repo from github	https://github.com/vardka013/ActivityTracker
-4) create CONFIG_STRAVA.csv in STRAVA\CONFIG	containing, e.g.
+4) create CONFIG_STRAVA.csv in STRAVA\CONFIG	containing, e.g.<br>
 VARIABLE,VALUE<br>
 sheet_url,https://docs.google.com/spreadsheets/d/18yx-J47ZIJWb0n6h9BmqdQSNzs3hKEf6d3qRxsa93EQ/edit?pli=1&gid=0#gid=0<br>
 club_id,herbert<br>
