@@ -36,3 +36,6 @@ sheet_url,https://docs.google.com/spreadsheets/d/18yx-J47ZIJWb0n6h9BmqdQSNzs3hKE
 club_id,herbert<br>
 client_id,1234578<br>
 client_secret,948cfefca71e2af3111e52dccb29e83fcd4d7b32<br>
+
+### PACKAGES REQUIRE
+httr, jsonlite, googlesheets4, lubridate
