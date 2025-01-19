@@ -37,5 +37,5 @@ club_id,herbert<br>
 client_id,1234578<br>
 client_secret,948cfefca71e2af3111e52dccb29e83fcd4d7b32<br>
 
-### PACKAGES REQUIRE
+### PACKAGES REQUIRED
 httr, jsonlite, googlesheets4, lubridate
