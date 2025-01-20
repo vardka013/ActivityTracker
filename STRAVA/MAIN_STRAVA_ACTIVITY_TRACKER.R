@@ -17,6 +17,8 @@ sys_path <- dirname(rstudioapi::getSourceEditorContext()$path)
 
 flg_load_token  <- 1
 
+flg_export      <- 1
+
 appname         <- "ActivityTracker"
 redirect_uri    <- "http://localhost"
 
@@ -46,7 +48,7 @@ if(flg_load_token == 1) source(file.path(sys_path, "SCRIPTS/RUN_GET_STRAVA_TOKEN
 
 source(file.path(sys_path, "SCRIPTS/RUN_GET_STRAVA_DATA.R"))
 
-source(file.path(sys_path, "SCRIPTS/RUN_EXPORT_TO_GOOGLE_SHEETS.R"))
+if(flg_export == 1) source(file.path(sys_path, "SCRIPTS/RUN_EXPORT_TO_GOOGLE_SHEETS.R"))
 
 #####################################################
 #  END OF CODE                                      #

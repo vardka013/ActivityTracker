@@ -31,7 +31,7 @@ while(check_page_full == 1){
                 Laufer              = paste(activities$athlete.firstname, activities$athlete.lastname),
                 DATUM               = date_value,
                 Distanz             = round(activities$distance / 1000, 2),
-                Geschwindigkeit     = round(mapply(fun_calculate_minutes_per_km_gs, activities$elapsed_time, activities$distance),7) ,  
+                Geschwindigkeit     = round(mapply(fun_calculate_minutes_per_km_gs, activities$moving_time, activities$distance),7) ,  
                 Akivzeit            = round(activities$moving_time / 86433,7), # ALTERNATIVE TIME TRACKER: FULL TIME OF ACTIVITY
                 Hoehenmeter         = activities$total_elevation_gain, 
                 ActivityName        = activities$name,
