@@ -37,6 +37,7 @@ fun_install_or_update("httr"); library(httr)
 fun_install_or_update("jsonlite"); library(jsonlite) 
 fun_install_or_update("googlesheets4"); library(googlesheets4)
 fun_install_or_update("lubridate"); library(lubridate)
+fun_install_or_update("dplyr"); library(dplyr)
 
 #####################################################
 #  RUN CODE                                         #
