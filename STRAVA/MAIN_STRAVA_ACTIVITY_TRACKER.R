@@ -19,6 +19,8 @@ flg_load_token  <- 1
 
 flg_export      <- 1
 
+flg_override    <- 1 # within RUN_EXPORT_TO_GOOGLE_SHEETS.R
+
 appname         <- "ActivityTracker"
 redirect_uri    <- "http://localhost"
 

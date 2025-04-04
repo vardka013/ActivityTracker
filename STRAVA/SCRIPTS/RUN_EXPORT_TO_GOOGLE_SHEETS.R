@@ -11,5 +11,7 @@ combined_data <- rbind(activities_output,existing_data)
 cleaned_data <- combined_data %>% distinct(Laufer, DATUM, Distanz, Geschwindigkeit, Akivzeit, Hoehenmeter, ActivityName, Kommentar, TYPE, Gesamtzeit, .keep_all = TRUE)
 cleaned_data$ID <- nrow(cleaned_data):1
 
+if(flg_override == 1) source(file.path(sys_path, "SCRIPTS/RUN_OVERRIDE.R"))
+
 # export to google sheets
 sheet_write(cleaned_data, ss = sheet_url, sheet = sheet_name)
