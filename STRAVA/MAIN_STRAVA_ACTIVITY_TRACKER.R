@@ -35,11 +35,11 @@ sheet_name      <- "strava_import"
 #####################################################
 source(file.path(sys_path, "FUNCTIONS/FUN_install_or_update.R"))
 source(file.path(sys_path, "FUNCTIONS/FUN_calculate_minutes_per_km_gs.R"))
-fun_install_or_update("httr"); library(httr)
-fun_install_or_update("jsonlite"); library(jsonlite) 
-fun_install_or_update("googlesheets4"); library(googlesheets4)
-fun_install_or_update("lubridate"); library(lubridate)
-fun_install_or_update("dplyr"); library(dplyr)
+fun_install_or_update("httr");library("httr")
+fun_install_or_update("jsonlite");library("jsonlite")
+fun_install_or_update("googlesheets4");library("googlesheets4")
+fun_install_or_update("lubridate");library("lubridate")
+fun_install_or_update("dplyr");library("dplyr")
 
 #####################################################
 #  RUN CODE                                         #
